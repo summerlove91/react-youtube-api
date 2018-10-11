@@ -14,7 +14,9 @@ class SearchBar extends Component {
         <input
         value={this.state.term}
         onChange={event => this.onInputChange(event.target.value)} />
+        <span className="glyphicon glyphicon-search search-icon" aria-hidden="true"></span>
       </div>
+
     );
   }
 
